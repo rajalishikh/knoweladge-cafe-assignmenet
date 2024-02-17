@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "cover": "https://i.im.ge/2024/02/17/cG58n9.7254.jpg",
+    "title": "Mystical Adventures",
+    "author": "Eleanor Thompson",
+    "author_img": "https://i.im.ge/2024/02/17/cG5BqP.female-painter-pretending-take-color-from-palette.jpg",
+    "posted_date": "2024-02-17",
+    "reading_time": "25",
+    "hashtags": ["fantasy", "adventure", "magic"]
+  },
+  {
+    "id": 2,
+    "cover": "https://i.im.ge/2024/02/17/cG58n9.7254.jpg",
+    "title": "Quantum Universe",
+    "author": "Alex Rodriguez",
+    "author_img": "https://i.im.ge/2024/02/17/cG5ekf.female-teacher-looking-her-schedule.jpg",
+    "posted_date": "2024-02-16",
+    "reading_time": "30",
+    "hashtags": ["science", "physics", "universe"]
+  },
+  {
+    "id": 3,
+    "cover": "https://i.im.ge/2024/02/17/cG5ZP8.481643-PH7J21-292.jpg",
+    "title": "Culinary Delights",
+    "author": "Isabella Davis",
+    "author_img": "https://i.im.ge/2024/02/17/cG9u3c.hip-young-serious-teacher-checkered-shirt-tweed-vest-standing-blank-blackboard-reading-from-thick-bright-red-white-binder.jpg",
+    "posted_date": "2024-02-15",
+    "reading_time": "20",
+    "hashtags": ["cooking", "recipes", "foodie"]
+  },
+  {
+    "id": 4,
+    "cover": "https://i.im.ge/2024/02/17/cG5fFM.closeup-shot-beautiful-purple-petaled-black-eyed-susan-flower-blurred.jpg",
+    "title": "Infinite Horizons",
+    "author": "Christopher Evans",
+    "author_img": "https://i.im.ge/2024/02/17/cG9ZBc.lovely-woman-reading.jpg",
+    "posted_date": "2024-02-14",
+    "reading_time": "40",
+    "hashtags": ["travel", "exploration", "adventure"]
+  },
+  {
+    "id": 5,
+    "cover": "https://i.im.ge/2024/02/17/cG5k9Y.selective-focus-shot-blue-african-daisy-flower.jpg",
+    "title": "Code Chronicles",
+    "author": "Sophia Lee",
+    "author_img": "https://i.im.ge/2024/02/17/cGjyly.young-artist-painting-something-canvas.jpg",
+    "posted_date": "2024-02-13",
+    "reading_time": "15",
+    "hashtags": ["coding", "programming", "tech"]
+  }
+]
