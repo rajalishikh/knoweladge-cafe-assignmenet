@@ -11,8 +11,11 @@ const Blogs = () => {
     }, [])
     
     return (
-        <div>
-            
+        <div className="lg:w-2/3">
+            The total length {blogs.length}
+            {
+                blogs.map(item=><Blogs key={item.id} blog={item}></Blogs>)
+            }
             
         </div>
     );
