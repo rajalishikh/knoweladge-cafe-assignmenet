@@ -12,7 +12,7 @@ const Blogs = () => {
     
     return (
         <div>
-            <p>The length of my data { blogs.length}</p>
+            
             
         </div>
     );
