@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
-const Blog = ({ blog1 }) => {
+import { FaBookmark } from 'react-icons/fa';
+const Blog = ({ blog1,blog2 }) => {
     
     const { cover,author_img,author,title,posted_date,reading_time,hashtags } = blog1;
 
@@ -7,7 +8,7 @@ const Blog = ({ blog1 }) => {
     
     return (
         <div className=' mb-4'>
-            <img width={645} height={450} src={cover} alt="" srcSet="" />
+            <img className='w-full' src={cover} alt="" srcSet="" />
             {/* div of all img and title section  */}
             
                 <div className='flex justify-between '>
@@ -25,8 +26,15 @@ const Blog = ({ blog1 }) => {
                         </div>
                         </div>
                         {/* only reding time  */}
-                        <div className='mr-16'>
-                            <p>{ reading_time} min read </p>
+                <div className='mr-16 mt-3'>
+                    {/* book mark button section  */}
+                    
+                    <p >{reading_time} min read
+                        <button onClick={()=>blog2(blog1)} className='ml-2'><FaBookmark></FaBookmark> </button>
+                    </p> 
+
+
+                    
 
                         </div>
                         
@@ -55,6 +63,8 @@ const Blog = ({ blog1 }) => {
 };
 Blog.propTypes = {
     blog1: PropTypes.object.isRequired,
+    blog2:PropTypes.func.isRequired
+   
     
 }
 
