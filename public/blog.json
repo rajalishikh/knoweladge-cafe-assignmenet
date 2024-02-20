@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "cover": "https://i.im.ge/2024/02/17/cG58n9.7254.jpg",
+    "cover": "../src/assets/1.jpg",
     "title": "Mystical Adventures",
     "author": "Eleanor Thompson",
     "author_img": "../src/assets/boy1.png",
@@ -11,7 +11,7 @@
   },
   {
     "id": 2,
-    "cover": "https://i.im.ge/2024/02/17/cG58n9.7254.jpg",
+    "cover": "../src/assets/2.png",
     "title": "Quantum Universe",
     "author": "Alex Rodriguez",
     "author_img": "../src/assets/boy2.png",
@@ -21,7 +21,7 @@
   },
   {
     "id": 3,
-    "cover": "https://i.im.ge/2024/02/17/cG5ZP8.481643-PH7J21-292.jpg",
+    "cover": "../src/assets/3.png",
     "title": "Culinary Delights",
     "author": "Isabella Davis",
     "author_img": "../src/assets/girl1.jpg",
@@ -31,7 +31,7 @@
   },
   {
     "id": 4,
-    "cover": "https://i.im.ge/2024/02/17/cG5fFM.closeup-shot-beautiful-purple-petaled-black-eyed-susan-flower-blurred.jpg",
+    "cover": "../src/assets/4.jpg",
     "title": "Infinite Horizons",
     "author": "Christopher Evans",
     "author_img": "../src/assets/girl1.jpg",
@@ -41,7 +41,7 @@
   },
   {
     "id": 5,
-    "cover": "https://i.im.ge/2024/02/17/cG5k9Y.selective-focus-shot-blue-african-daisy-flower.jpg",
+    "cover": "../src/assets/pexels-photo-577585.jpeg",
     "title": "Code Chronicles",
     "author": "Sophia Lee",
     "author_img": "../src/assets/girl2.jpg",
