@@ -51,6 +51,7 @@ const Blog = ({ blog1,blog2 }) => {
 
                 }
             </p>
+          <button className='text-purple-800 underline text-2xl'>Mark as read </button>
                 
                 
 
