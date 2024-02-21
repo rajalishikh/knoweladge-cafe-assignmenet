@@ -3,10 +3,18 @@ const Bookmark = ({ bookMark2 }) => {
     const { title } = bookMark2;
 
     return (
-        <div className='bg-white p-3 m-3'>
+       
+
+        <div>
+             
+                
+                <div className='bg-white p-3 m-3'>
+            
             
             <p>{ title}</p>
             
+        </div>
+                
         </div>
     );
 };
