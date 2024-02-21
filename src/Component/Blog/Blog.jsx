@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import { FaBookmark } from 'react-icons/fa';
-const Blog = ({ blog1,blog2 }) => {
+const Blog = ({ blog1,blog2, spentTimeClick}) => {
     
     const { cover,author_img,author,title,posted_date,reading_time,hashtags } = blog1;
 
@@ -51,7 +51,9 @@ const Blog = ({ blog1,blog2 }) => {
 
                 }
             </p>
-          <button className='text-purple-800 underline text-2xl'>Mark as read </button>
+            <button 
+            onClick={() =>  spentTimeClick(reading_time)}
+                className='text-purple-800 underline text-2xl'>Mark as read </button>
                 
                 
 
@@ -64,7 +66,9 @@ const Blog = ({ blog1,blog2 }) => {
 };
 Blog.propTypes = {
     blog1: PropTypes.object.isRequired,
-    blog2:PropTypes.func.isRequired
+    blog2: PropTypes.func.isRequired,
+    spentTimeClick:PropTypes.func.isRequired,
+    
    
     
 }

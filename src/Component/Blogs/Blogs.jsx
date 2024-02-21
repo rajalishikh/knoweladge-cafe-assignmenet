@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import Blog from "../Blog/Blog";
 
 
-const Blogs = ({ BookmarkClick}) => {
+const Blogs = ({ BookmarkClick,spentTimeClick}) => {
     const [blogs, setBlogs] = useState([]);
     useEffect(() => {
         fetch('blog.json')
@@ -16,7 +16,7 @@ const Blogs = ({ BookmarkClick}) => {
         <div className="lg:w-2/3">
             The total length {blogs.length}
             {
-                blogs.map(item=><Blog  key={item.id} blog1={item} blog2={BookmarkClick} ></Blog>)
+                blogs.map(item=><Blog  key={item.id} blog1={item} blog2={BookmarkClick} spentTimeClick={spentTimeClick} ></Blog>)
             }
             
             
@@ -24,7 +24,8 @@ const Blogs = ({ BookmarkClick}) => {
     );
 };
 Blogs.propTypes = {
-    BookmarkClick:PropTypes.func.isRequired,
+    BookmarkClick: PropTypes.func.isRequired,
+    spentTimeClick:PropTypes.func
 }
 
 export default Blogs;
