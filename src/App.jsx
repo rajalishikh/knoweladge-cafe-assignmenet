@@ -19,10 +19,14 @@ function App() {
     setBookMark(newBookMark)
   }
   //  handle click for spent time count  
-  const spentTimeClick = time => {
+  const spentTimeClick = (time,id) => {
     console.log("my time", time);
     const newReadingTime = spentTime - time;
     setSpentTime(newReadingTime);
+    // remove book mark from the  list 
+    console.log('remove the book mark', id)
+    const newRemoveBookMark = bookMark.filter(item4 => item4.id !== id);
+    setBookMark(newRemoveBookMark)
     
 
 

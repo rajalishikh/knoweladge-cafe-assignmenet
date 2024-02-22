@@ -10,7 +10,7 @@ const Bookmarks = ({ bookMark, spentTime }) => {
            
            <h2 className='text-xl  font-bold  text{rgb(17, 17, 17)}'> The total number of Bookmark: {bookMark.length} </h2>
            {
-               bookMark.map(item3=><Bookmark key={item3.id} bookMark2={item3} ></Bookmark>)
+               bookMark.map((item3,idx)=><Bookmark key={idx} bookMark2={item3} ></Bookmark>)
            }
            
        </div>
