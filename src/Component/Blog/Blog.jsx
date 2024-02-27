@@ -52,7 +52,7 @@ const Blog = ({ blog1,blog2, spentTimeClick}) => {
                 }
             </p>
             <button 
-            onClick={() =>  spentTimeClick(reading_time,id)}
+            onClick={() =>  spentTimeClick(parseInt(reading_time),id)}
                 className='text-purple-800 underline text-2xl'>Mark as read </button>
                 
                 
